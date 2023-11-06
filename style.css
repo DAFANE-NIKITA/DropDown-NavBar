@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+body {
+    background-image: linear-gradient(rgba(20, 28, 38, 0.5), rgba(20, 28, 38, 0.5)), url(back.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    background: teal;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 30px;
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+ul li ul.Language_dropdown li {
+    display: none;
+}
+
+ul li ul.Language_dropdown {
+    width: 105%;
+    background: gray;
+    position: absolute;
+    display: block;
+}
+
+ul li a:hover {
+    background: white;
+}
+
+ul li:hover ul.Language_dropdown li {
+    display: block
+}
+
+
+/*about*/
+
+ul li ul.about_dropdown {
+    width: 105%;
+    background: gray;
+    position: absolute;
+    display: block;
+}
+
+ul li:hover ul.about_dropdown li {
+    display: block
+}
+
+ul li ul.about_dropdown li {
+    display: none;
+}
+
+
+/*contact*/
+
+ul li ul.contact_dropdown {
+    width: 105%;
+    background: gray;
+    position: absolute;
+    display: block;
+}
+
+ul li:hover ul.contact_dropdown li {
+    display: block
+}
+
+ul li ul.contact_dropdown li {
+    display: none;
+}
